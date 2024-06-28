@@ -8,7 +8,7 @@ export default function Home() {
 
 const [query, setQuery] = useState("")
 const [error, setError] = useState("")
-
+console.log(error);
 const searchMovie = async (e) => {
 e.preventDefault() // On limite le formulaire à la soumission
 if (query.trim().length > 2) {
