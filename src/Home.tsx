@@ -36,7 +36,7 @@ try {
       </div>
 
       <form onSubmit={searchMovie} className="text-center p-8">
-        <input type="text" className='p-1.5 text-slate-900 border-none rounded-full text-center' onChange={(e) => setQuery(e.target.value)} placeholder='Entrez votre recherche' /> <br />
+        <input type="text" className='p-1.5 text-slate-900 border-none rounded-full text-center' onChange={(e: React.ChangeEvent<HTMLInputElement>) => setQuery(e.target.value)} placeholder='Entrez votre recherche' /> <br />
         <button className='m-2 border py-1.5 px-3 rounded-full hover:bg-bluesky-500' type='submit'>Rechercher</button>
       </form>
 
