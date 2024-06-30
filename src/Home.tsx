@@ -29,7 +29,7 @@ try {
 }
 }
   return (
-    <main> 
+    <main className='text-center'> 
       <div className="text-center p-8">
         <h1 className='font-bold text-6xl text-center'>CINEMAX</h1>
         <p>Trouver les infos de films et de séries en 2 clics !</p>
