@@ -9,7 +9,7 @@ export default function Home() {
 const [query, setQuery] = useState("")
 const [error, setError] = useState("")
 console.log(error);
-const searchMovie = async (e: React.FormEvent<HTMLElementgit>) => {
+const searchMovie = async (e: React.FormEvent<HTMLElement>) => {
 e.preventDefault() // On limite le formulaire à la soumission
 if (query.trim().length > 2) {
   setError("Merci de tapez un mot-clé de 3 caractères minimum")
